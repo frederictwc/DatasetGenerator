@@ -9,6 +9,7 @@ pip install bing-image-downloader
 ```
 
 ## Instruction
+Edit bing_downloader to change the parameters.
 ```
-python3 
+python3 bing_downloader.py
 ```
