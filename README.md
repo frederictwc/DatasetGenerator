@@ -28,3 +28,16 @@ apple
 labelImg <image path> <path of class file> 
 ```
 You can choose different output format either in yolo or VOC
+
+4) Split the training into train, val (and test)
+
+Edit the split.py file to change parameters. Then run
+```
+python3 split.py
+```
+
+5) You need to create a train.txt and a val.txt for Yolo.
+
+```
+python3 gen_train.txt
+```
