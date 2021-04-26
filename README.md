@@ -41,3 +41,7 @@ python3 split.py
 ```
 python3 gen_train.txt
 ```
+
+## COCO dataset
+
+
