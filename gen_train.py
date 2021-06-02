@@ -1,10 +1,10 @@
 import glob
 
-path = 'DIRT_4.1/'
+path = 'DIRT_9/'
 
 def generate_train_and_val(image_path, txt_file):
     with open(txt_file, 'a+') as tf:
-        for jpg_file in glob.glob('DIRT_4.1/' + '*train*.jpg'):
+        for jpg_file in glob.glob('DIRT_9/*/' + 'train/*.jpg'):
             print(jpg_file)
             tf.write(jpg_file + '\n')
 
